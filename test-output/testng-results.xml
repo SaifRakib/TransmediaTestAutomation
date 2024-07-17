@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-17T13:16:56 AST" name="Suite" finished-at="2024-07-17T13:17:07 AST" duration-ms="10218">
+    <groups>
+    </groups>
+    <test started-at="2024-07-17T13:16:56 AST" name="UI Test" finished-at="2024-07-17T13:17:04 AST" duration-ms="7809">
+      <class name="com.test.transmedia.BaseTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.transmedia.BaseTest@71238fc2]" started-at="2024-07-17T13:16:56 AST" name="setUp" finished-at="2024-07-17T13:17:02 AST" duration-ms="5061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateBoardAndLists()[pri:0, instance:com.test.transmedia.BaseTest@71238fc2]" started-at="2024-07-17T13:17:02 AST" name="testCreateBoardAndLists" finished-at="2024-07-17T13:17:04 AST" duration-ms="2423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateBoardAndLists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.transmedia.BaseTest@71238fc2]" started-at="2024-07-17T13:17:04 AST" name="tearDown" finished-at="2024-07-17T13:17:04 AST" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.transmedia.BaseTest -->
+    </test> <!-- UI Test -->
+    <test started-at="2024-07-17T13:17:04 AST" name="API Test" finished-at="2024-07-17T13:17:07 AST" duration-ms="2337">
+      <class name="com.test.transmedia.ApiTest">
+        <test-method signature="testAddList()[pri:0, instance:com.test.transmedia.ApiTest@618425b5]" started-at="2024-07-17T13:17:04 AST" name="testAddList" finished-at="2024-07-17T13:17:07 AST" duration-ms="2334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddList -->
+      </class> <!-- com.test.transmedia.ApiTest -->
+    </test> <!-- API Test -->
+  </suite> <!-- Suite -->
+</testng-results>
